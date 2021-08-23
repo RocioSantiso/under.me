@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* acerca de */
+.padding-texto h2 {
+  padding-top: 35px; }
+
+.index__informacion--imagen img {
+  width: 80%; }
+
+/* Portada */
+.header__portada {
+  background-image: url(../multimedia/portada.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: auto; }
+
+/* Index */
+.index__separador--altura {
+  height: 150px; }
+
+#noticias hr {
+  opacity: 1;
+  color: #FFA100;
+  height: 3px;
+  width: 30%; }
+
+.header__info--resaltada {
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 8px 8px #E71994, 20px 20px #47067B; }
+
+/* Artistas */
+#artistas hr {
+  opacity: 1;
+  height: 4px;
+  width: 30%; }
+
+.iframe__artista--spotify {
+  height: auto;
+  background-image: url(../multimedia/fondoweb.png);
+  background-position: center;
+  background-size: cover; }
+
+.margenes--costados {
+  margin-left: 10px;
+  margin-right: 15px; }
+
+.fondo-establec-1 {
+  background-image: url(../multimedia/FondoEstablec3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px; }
+
+.div__img--tamaño img {
+  width: auto;
+  height: 280px; }
+
+.div__p--tamaño {
+  background-color: rgba(70, 6, 122, 0.589); }
+
+.div__p--tamaño p {
+  text-align: center; }
+
+.fondo-establec-2 {
+  background-image: url(../multimedia/FondoEstablecim2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px; }
+
+.fondo-establec-3 {
+  background-image: url(../multimedia/fondoest5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px; }
+
+.fondo-establec-4 {
+  background-image: url(../multimedia/fondoEstablecimiento.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px; }
+
+.fondo-establec-5 {
+  background-image: url(../multimedia/fondoestablec5.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px; }
+
+/* GRILLA DE EVENTOS */
+/* Tablas flexbox eventos */
+.flex-columna {
+  padding: auto 40px;
+  margin: 50px auto;
+  border: 1px solid #ff9100;
+  display: flex;
+  flex-direction: column; }
+
+.flex-columna h3 {
+  width: 100px;
+  text-align: center; }
+
+.flex-fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline; }
+
+.flex-fila p, .flex-fila h4 {
+  width: 100px;
+  height: 85px;
+  text-align: center; }
+
+.flex-fila a {
+  /* width: 100px;
+    height: 70px; */
+  text-align: center;
+  background-color: #FFA100;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 25px;
+  border: solid 1px white; }
+
+.flex-fila a:hover {
+  background-color: purple; }
+
+.p--color, .p--tamaño {
+  color: white; }
+
+.p--tamaño {
+  width: 45px; }
+
+/* paleta de colore  s
+Violeta: #47067B
+Azul: #002488
+Verde: #04CB5F
+Rosa: #E71994
+Naranja: #FFA100
+Negro: #000000
+Negro claro: #131313
+*/
+* {
+  color: white;
+  text-decoration: none; }
+
+.c-blanco {
+  color: white; }
+
+.bg-negroC {
+  background-color: #131313; }
+
+.c-violeta {
+  color: #47067B; }
+
+.bg-violeta {
+  background-color: #47067B; }
+
+.c-azul {
+  color: #002488; }
+
+.bg-azul {
+  background-color: #002488; }
+
+.c-verde {
+  color: #04CB5F; }
+
+.bg-verde {
+  background-color: #04CB5F; }
+
+.c-rosa {
+  color: #E71994; }
+
+.bg-rosa {
+  background-color: #E71994; }
+
+.c-naranja {
+  color: #FFA100; }
+
+.bg-naranja {
+  background-color: #FFA100; }
+
+* {
+  color: white;
+  text-decoration: none; }
+
+body {
+  background-color: black; }
+
+/* NavBar */
+nav {
+  background-color: #131313; }
+
+/* Fin NavBar */
+/* Parrafos establecimientos*/
