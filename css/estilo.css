@@ -47,6 +47,17 @@
   margin-left: 10px;
   margin-right: 15px; }
 
+.txt-secundario {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.25rem;
+  color: #FFA100; }
+
+#s-franzizca {
+  background-color: black; }
+
+#s-intendente {
+  background-color: black; }
+
 .fondo-establec-1 {
   background-image: url(../multimedia/FondoEstablec3.jpg);
   background-position: center;
