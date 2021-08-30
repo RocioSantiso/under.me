@@ -231,4 +231,5 @@ nav {
   background-color: #131313; }
 
 /* Fin NavBar */
-/* Parrafos establecimientos*/
+* {
+  list-style: none; }
