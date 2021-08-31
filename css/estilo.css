@@ -14,6 +14,15 @@
   height: 100vh;
   width: auto; }
 
+.navbar-logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px; }
+  .navbar-logo img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
 /* Index */
 .index__separador--altura {
   height: 150px; }
