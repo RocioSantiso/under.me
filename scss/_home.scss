@@ -13,14 +13,32 @@
     }
 }
 
+/*navbar */
+    nav{
+        background-image: url(../multimedia/portada1.jpg);
+        width: 100%;
+        padding: 0 !important;
+        position:sticky;
+    }
+    nav .container-fluid{
+        background-color: rgba(18, 18, 18, 0.4);
+        width: 100%;
+    }
+
+    .navbar-dark .navbar-nav .nav-link{
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
 /* Portada */
-.header__portada{
+/*.header__portada{
     background-image: url(../multimedia/portada.jpeg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: auto;
-}
+} */
 
 .navbar-logo{
         display: inline-block;
