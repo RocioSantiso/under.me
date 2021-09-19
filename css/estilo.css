@@ -92,25 +92,28 @@ nav .container-fluid {
   background-image: url(../multimedia/FondoEstablecim2.jpg);
   background-position: center;
   background-size: cover;
-  height: 450px; }
+  height: 550px; }
 
 .fondo-establec-3 {
   background-image: url(../multimedia/fondoest5.jpg);
   background-position: center;
   background-size: cover;
-  height: 450px; }
+  height: 550px; }
 
 .fondo-establec-4 {
   background-image: url(../multimedia/fondoEstablecimiento.jpg);
   background-position: center;
   background-size: cover;
-  height: 450px; }
+  height: 550px; }
 
 .fondo-establec-5 {
   background-image: url(../multimedia/fondoestablec5.jpg);
   background-position: center;
   background-size: cover;
-  height: 450px; }
+  height: 550px; }
+
+.m-bottom {
+  margin-bottom: 25px; }
 
 /* GRILLA DE EVENTOS */
 /* Tablas flexbox eventos */
