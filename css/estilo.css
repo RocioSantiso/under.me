@@ -57,11 +57,6 @@ nav .container-fluid {
   text-shadow: 8px 8px #E71994, 20px 20px #47067B; }
 
 /* Artistas */
-#artistas hr {
-  opacity: 1;
-  height: 4px;
-  width: 30%; }
-
 .iframe__artista--spotify {
   height: auto;
   background-image: url(../multimedia/fondoweb.png);
@@ -212,8 +207,9 @@ Negro claro: #131313
 
 .c-naranja {
   background-color: #FFA100;
+  opacity: 1;
   width: 30%;
-  height: 5px; }
+  height: 4px; }
 
 .bg-naranja {
   background-color: #FFA100; }
