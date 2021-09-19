@@ -40,8 +40,6 @@
 
 .flex-fila{
     a{
-    /* width: 100px;
-    height: 70px; */
     text-align: center;
     background-color: #FFA100;
     padding: 15px 20px;
@@ -53,4 +51,29 @@
 }
 .flex-fila a:hover{
     background-color: purple;
+}
+
+
+@media (min-width:320px) and (max-width:500px){
+    .font-size-resp{
+        font-size: 18px;
+        text-align: center;
+    }
+    .font-size-resp2{
+        font-size: 16px;
+    }
+    .font-size-resp3{
+        font-size: 14px;
+    }
+    .flex-fila{
+        a{
+            text-align: center;
+            background-color: #FFA100;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: black;
+            border-radius: 16px;
+            border:solid 1px white;
+        }
+    }
 }
