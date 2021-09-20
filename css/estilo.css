@@ -23,13 +23,6 @@ nav .container-fluid {
   text-transform: uppercase; }
 
 /* Portada */
-/*.header__portada{
-    background-image: url(../multimedia/portada.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: auto;
-} */
 .navbar-logo {
   display: inline-block;
   vertical-align: middle;
@@ -55,6 +48,10 @@ nav .container-fluid {
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
   text-shadow: 8px 8px #E71994, 20px 20px #47067B; }
+
+.txt-secundario {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.25rem; }
 
 /* Artistas */
 .iframe__artista--spotify {
@@ -113,7 +110,6 @@ nav .container-fluid {
   height: 550px; }
 
 /* GRILLA DE EVENTOS */
-/* Tablas flexbox eventos */
 .flex-columna {
   padding: auto 40px;
   margin: 50px auto;
@@ -165,13 +161,7 @@ nav .container-fluid {
     border-radius: 16px;
     border: solid 1px white; } }
 
-.p--color, .p--tamaño {
-  color: white; }
-
-.p--tamaño {
-  width: 45px; }
-
-/* paleta de colore  s
+/* paleta de colores
 Violeta: #47067B
 Azul: #002488
 Verde: #04CB5F

@@ -31,14 +31,9 @@
         text-transform: uppercase;
     }
 
+
 /* Portada */
-/*.header__portada{
-    background-image: url(../multimedia/portada.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: auto;
-} */
+
 
 .navbar-logo{
         display: inline-block;
@@ -51,8 +46,6 @@
                 height: auto;
                 }
         }
-
-
 
 
 
@@ -82,3 +75,7 @@
                 20px 20px #47067B;
 }
 
+.txt-secundario{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25rem;
+}
